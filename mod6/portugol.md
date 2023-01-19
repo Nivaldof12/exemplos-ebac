@@ -10,6 +10,8 @@
 8. Fecho a porta;
 9. Ligo o meu computador;
 10. Se tiver alguma atividade
+    
     10.1 Faço a tarefa
 11. Se não tiver atividade
+   
     11.1 vou falar com os amigos ou jogar
