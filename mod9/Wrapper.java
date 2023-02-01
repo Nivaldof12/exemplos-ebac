@@ -15,7 +15,7 @@ public class Wrapper {
         System.out.println(num2);
     }
 
-    // Teste tipos complexos: Wrapper, variáveis primitivas e Autoboxing.
+    // Teste tipos complexos: Wrapper, variável primitiva e Autoboxing.
     private static void exemplo2() {
         Integer num1 = Integer.valueOf(10);
         short num2 = 5;
