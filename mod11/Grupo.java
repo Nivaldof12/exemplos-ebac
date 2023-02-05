@@ -4,11 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * @author Nivaldo
+ */
+
 public class Grupo {
 public static void main(String[] args){
     metodo();
 }
-    private static void metodo() {
+    protected static void metodo() {
     System.out.println("****** Consultar Cadastrados ******");
     List<Pessoa> lista = new ArrayList<Pessoa>();
     Pessoa a = new Pessoa("Nivaldo","Masculino");
@@ -38,11 +42,18 @@ public static void main(String[] args){
             break;
 
         case 2:
-
+                System.out.println("Pessoas Cadastradas");
+                System.out.println(b.getNome());
+                System.out.println(d.getNome());
+                System.out.println(e.getNome());
+                System.out.println(f.getNome());
             break;
 
         case 3:
-
+                System.out.println("Pessoas Cadastradas");
+                System.out.println(a.getNome());
+                System.out.println(c.getNome());
+                System.out.println(g.getNome());
             break;
 
         case 4:

@@ -1,5 +1,9 @@
 package mod11;
 
+/**
+ * @author Nivaldo
+ */
+
 public class Pessoa {
     private String nome;
     private String sexo;
