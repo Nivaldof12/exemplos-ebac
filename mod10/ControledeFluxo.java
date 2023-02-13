@@ -30,7 +30,7 @@ public class ControledeFluxo {
             double nota4 = s4.nextDouble();
 
             double notafinal = (nota1 + nota2 + nota3 + nota4) / 4;
-            System.out.println(notafinal);
+            System.out.println("A média das notas é: " + notafinal);
 
             if (notafinal >= 7 && notafinal <= 10) {
                 System.out.println("Aluno aprovado!");
