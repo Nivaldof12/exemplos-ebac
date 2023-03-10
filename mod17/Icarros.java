@@ -1,6 +1,8 @@
 package mod17;
 
-public interface Icarros {
-    void modelo();
+public abstract class Icarros {
+    void modelo() {
+
+    }
 
 }
