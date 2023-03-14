@@ -10,4 +10,9 @@ public class Demo {
     public Demo() {
 
     }
+    public static void main(String[] args) {
+        Prod prod = new Prod();
+        Class prod1 = prod.getClass();
+        System.out.println(prod1);
+    }
 }
