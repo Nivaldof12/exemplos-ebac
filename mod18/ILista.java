@@ -4,7 +4,7 @@ import java.lang.annotation.*;
 
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.FIELD, ElementType.TYPE, ElementType.CONSTRUCTOR})
+@Target({ElementType.FIELD})
 public @interface ILista {
 
     String[] tabela();
