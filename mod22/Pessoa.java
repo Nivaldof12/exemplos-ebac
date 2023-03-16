@@ -8,6 +8,9 @@ public class Pessoa {
     private String nome;
     private String sexo;
 
+    public Pessoa() {
+    }
+
     public Pessoa(String nome, String sexo) {
         this.nome = nome;
         this.sexo = sexo;
@@ -19,5 +22,13 @@ public class Pessoa {
 
     public String getSexo() {
         return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = this.sexo;
+    }
+
+    public void adicionarSexo(String sexo) {
+        setSexo(sexo);
     }
 }
