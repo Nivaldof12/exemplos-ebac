@@ -19,13 +19,16 @@ public class Pessoa {
     public String getNome() {
         return nome;
     }
+    public void setNome(String nome) {
+        this.nome = this.nome;
+    }
 
     public String getSexo() {
         return sexo;
     }
 
     public void setSexo(String sexo) {
-        this.sexo = this.sexo;
+        this.sexo = sexo;
     }
 
     public void adicionarSexo(String sexo) {

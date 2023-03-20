@@ -27,6 +27,5 @@ public class Imprimir {
         List<Pessoa> mulheres = pessoas.stream().filter(p -> p.getSexo().equalsIgnoreCase("Feminino")).toList();
 
         mulheres.stream().map(Pessoa::getNome).forEach(System.out::println);
-
     }
 }
